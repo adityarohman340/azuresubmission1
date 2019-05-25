@@ -7,7 +7,7 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-size: 200% 100% !important;
-    background: #546e7a;
+    background: #607d8b;
     height: 90vh;
 }
 
@@ -23,28 +23,38 @@ body {
     overflow: hidden;
 }
 
-.form_input {
+.form__input {
     display: block;
     width: 100%;
     padding: 20px;
     -webkit-appearance: none;
     border: 0;
-    outline: none;
+    outline: 0;
 }
 
 .btn {
+    border-radius: 0px;
     display: block;
     width: 100%;
     padding: 20px;
     font-family: 'Montserrat', sans-serif;
     -webkit-appearance: none;
-    outline: none;
-    border: none;
+    outline: 0;
+    border: 0;
     color: white;
-    background-color: #4dd0e1;
+    background-color: #4db6ac;
+    transition: 0.3s;
 }
 
 .btn:hover {
-    background-color: white;
-    color: grey;
+    background-color: #37474f;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100;
 }

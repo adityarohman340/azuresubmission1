@@ -4,30 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <title>Form Registerasi Developer</title>
+    <title>Register Form</title>
 </head>
 <body>
     <div class="user">
-        <form action="index.php" method="post" enctype="multipart/form-data" class="form">
-            <div class="form_group">
-                <input type="text" placeholder="Nama" class="form_input" name="nama" id="nama">
+        <h3>Form Registerasi User</h3>          
+        <form class="form">
+            <div class="form__group">
+                <input type="text" placeholder="Name" class="form__input" />
             </div>
-            <div class="form_group">
-                <input type="text" placeholder="Email" class="form_input" name="email" id="email">
+                    
+            <div class="form__group">
+                <input type="email" placeholder="Email" class="form__input" />
             </div>
-            <div class="form_group">
-                <input type="text" placeholder="Bidang Dev" class="form_input" name="devclass" id="devclass">
+                    
+            <div class="form__group">
+                <input type="text" placeholder="Jobs" class="form__input" />
             </div>
-            <div class="form_group">
-                <input type="text" placeholder="Favorite Language" class="form_input" name="favlang" id="favlang">
-            </div>
-            <!-- Button -->
-            <input type="submit" name="submit" id="submit" value="Register" class="btn">
-            <input type="submit" name="load" id="load" value="Tampilkan Data" class="btn">
+                    
+            <button class="btn" type="button">Register</button>
         </form>
-    </div>
+    </div>  
     <!-- END OF FORM -->
     <!-- PHP CODE -->
     <?php 
