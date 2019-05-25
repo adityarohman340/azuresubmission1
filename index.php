@@ -24,8 +24,8 @@
                 <input type="text" placeholder="Favorite Language" class="form_input" name="favlang" id="favlang">
             </div>
             <!-- Button -->
-            <input type="submit" name="submit" id="submit" value="Register">
-            <input type="submit" name="load" id="load" value="Tampilkan Data">
+            <input type="submit" name="submit" id="submit" value="Register" class="btn">
+            <input type="submit" name="load" id="load" value="Tampilkan Data" class="btn">
         </form>
     </div>
     <!-- END OF FORM -->
