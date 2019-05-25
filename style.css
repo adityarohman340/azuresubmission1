@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-size: 200% 100% !important;
+    background: #546e7a;
+    height: 90vh;
+}
+
+.user {
+    width: 90%;
+    max-width: 340px;
+    margin: 10vh auto;
+}
+
+.form {
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.form_input {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    -webkit-appearance: none;
+    border: 0;
+    outline: none;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #4dd0e1;
+}
+
+.btn:hover {
+    background-color: white;
+    color: grey;
+}
